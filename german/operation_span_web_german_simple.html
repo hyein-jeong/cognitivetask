@@ -402,37 +402,17 @@ timeline.push(practice_block14);
 timeline.push(practice_block15);
 timeline.push(practice_block16);
 timeline.push(recall_block);
-timeline.push(practice_block21);
-timeline.push(practice_block22);
-timeline.push(practice_block23);
-timeline.push(practice_block24);
-timeline.push(practice_block25);
-timeline.push(practice_block26);
-timeline.push(recall_block);
-timeline.push(exp_block11);
-timeline.push(exp_block12);
-timeline.push(exp_block13);
-timeline.push(exp_block14);
-timeline.push(exp_block15);
-timeline.push(exp_block16);
-timeline.push(recall_block);
 timeline.push(exp_block21);
 timeline.push(exp_block22);
 timeline.push(exp_block23);
 timeline.push(exp_block24);
 timeline.push(exp_block25);
+timeline.push(recall_block);
 timeline.push(exp_block26);
 timeline.push(exp_block27);
 timeline.push(exp_block28);
 timeline.push(exp_block29);
 timeline.push(exp_block210);
-timeline.push(recall_block);
-timeline.push(exp_block31);
-timeline.push(exp_block32);
-timeline.push(exp_block33);
-timeline.push(exp_block34);
-timeline.push(exp_block35);
-timeline.push(exp_block36);
 timeline.push(recall_block);
 
 //function to save the data
@@ -446,7 +426,7 @@ function saveData(filename, filedata){
 }
 
 //create random participant number
-var subject_ID = Math.floor(Math.random()*10000);
+var subject_ID = Math.floor(Math.random()*1000);
 
 //initialise experiment
 jsPsych.init({
